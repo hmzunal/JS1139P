@@ -1,0 +1,22 @@
+body{background-color: rgb(26, 173, 26);}
+        #main {
+            background-color: green;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            width: 600px;
+            padding: 20px;
+            margin: 150px auto;
+        }
+
+        button {
+            margin: 10px 10px;
+            padding: 20px;
+        }
+        @media screen and (max-width:700px){
+            #main{ width: 90%;}
+            button {
+            margin: 5px 5px;
+            padding: 10px;
+        }
+        }
